@@ -1,0 +1,59 @@
+.bg-img {
+  background-image: url(../images/ms.jpg);
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.aboutMe-main {
+  padding: 10%;
+  position: relative;
+}
+.bg-wrapper {
+  background-color: rgba(95, 95, 95, 0.884);
+  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+}
+.aboutMe-text {
+  animation: fadeIn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  color: lightblue;
+}
+
+#headShot {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-color: black;
+  border: 1px solid;
+  z-index: 3;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.work-link {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.line {
+  background-color: #3366cc;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

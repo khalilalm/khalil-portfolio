@@ -1,0 +1,28 @@
+.al-estate-project{
+  float: left;
+  max-width: 475px;
+  max-height:575px;
+  transition: blur;
+}
+.al-estate-project:hover {
+  filter: blur(4px);
+ 
+}
+.al-estate-text{
+  margin-top: -7em;
+  margin-left: 4em;
+  
+}
+.apex-project{
+display: inline;
+max-width: 475px;
+max-height:575px;
+}
+.apexer-text{
+
+}
+.kobe-tribute-project{
+  float: right;
+  max-width: 475px;
+  max-height:575px;
+}
