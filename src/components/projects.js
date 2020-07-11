@@ -11,12 +11,9 @@ class projects extends Component {
         return (
           <div className= "project-wrapper">
         <div className="project-content">
-<h1>Projects</h1>
-<video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4"/>
-</video>
+<h1 id="project-title">Projects</h1>
+
 <img src={alEstate} className="al-estate-project"></img>
-<span>Apexer</span>
 
 
 <img src={apexer} className="apexer-project"></img>
@@ -25,7 +22,8 @@ class projects extends Component {
 <img src={kobe} className="kobe-tribute-project"></img>
 
 </div>
-</div> );
+</div> 
+);
     }
 }
  

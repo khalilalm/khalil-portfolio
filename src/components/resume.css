@@ -8,7 +8,7 @@
   width: 50%;
   margin: 0 auto;
 }
-.resume-image{
+.resume-image {
   position: relative;
   left: 28%;
   top: 50%;
@@ -17,6 +17,23 @@
   text-align: center;
 }
 .resume-subhead {
-    text-align: center;
+  text-align: center;
+}
+@media only screen and (max-width: 375px) {
+  .resume-title {
     
+  }
+  .resume-main {
+    display: relative;
+    left: 0%;
+    right: 0%;
+    background: #3366cc;
+    width: 400px;
+    height: 30%;
+    margin: 0 auto;
+}
+.resume-image {
+  
+  right: 100%;
+}
 }

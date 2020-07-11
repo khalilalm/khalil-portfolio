@@ -33,7 +33,7 @@ class contact extends Component {
         return (<div className="contact-main">
             <h1 className='contact-text'>Contact Me</h1>
             <p className='contact-text'><strong>Got any business inquiries or general questions?</strong></p>
-            <p className='contact-text'>Contact me at my almujeebkhalil@gmail.com or call me at 570-242-9678</p>
+            <p className='contact-text'>Contact me at my almujeebkhalil@gmail.com or call me at 570-540-2786</p>
         </div>  );
     }
 }
