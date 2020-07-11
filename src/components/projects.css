@@ -1,5 +1,9 @@
+.project-content{
+  display: flex;
+  flex-direction: row;
+}
 .al-estate-project {
-  float: left;
+ 
   width: 475px;
   height: 575px;
   transition: blur;
@@ -12,13 +16,13 @@
   margin-left: 4em;
 }
 .apex-project {
-  display: inline;
+  
   max-width: 475px;
   max-height: 575px;
 }
 
 .kobe-tribute-project {
-  float: right;
+  
   max-width: 475px;
   max-height: 575px;
 }

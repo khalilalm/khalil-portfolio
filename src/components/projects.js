@@ -10,8 +10,9 @@ class projects extends Component {
     render() { 
         return (
           <div className= "project-wrapper">
+            <h1 id="project-title" style={{"text-align":"center"}}>Projects</h1>
         <div className="project-content">
-<h1 id="project-title">Projects</h1>
+
 
 <img src={alEstate} className="al-estate-project"></img>
 
@@ -22,6 +23,7 @@ class projects extends Component {
 <img src={kobe} className="kobe-tribute-project"></img>
 
 </div>
+<p style={{"text-align":"center"}}>View more on my Github <a href="">here</a></p>
 </div> 
 );
     }
