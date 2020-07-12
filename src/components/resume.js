@@ -5,14 +5,16 @@ class resume extends Component {
     state = {  }
     render() { 
         return ( <div className='resume-wrapper'>
-            <div className="resume-main">
+            <h1 className='resume-title'>Resume</h1>
+            <div className="resume-content">
             
-            <h1 className='resume-title'>Resume</h1><a href="../resources/WebDeveloperResume.pdf" download>
-            <img src={resumeI} className="resume-image"></img>
+            <a className="resume-image" href="../resources/WebDeveloperResume.pdf" download>
+            <img src={resumeI} ></img>
             </a>
-            <p className="resume-subhead">Click image to get my resume</p>
-            <br></br>
+            
+            
             </div>
+            <p className="resume-subhead">Click image to get my resume</p>
         </div> );
     }
 }

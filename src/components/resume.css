@@ -1,18 +1,19 @@
-.resume-wrapper {
-  background: #3366cc;
-  width: 100%;
-  height: 30%;
-  margin: 0 auto;
+.resume-wrapper { 
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow:  10px 5px 5px #3366cc;
+  padding: 20px;
+  margin: 30px;
 }
-.resume-main {
+.resume-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 50%;
   margin: 0 auto;
+
 }
-.resume-image {
-  position: relative;
-  left: 28%;
-  top: 50%;
-}
+
 .resume-title {
   text-align: center;
 }
@@ -20,13 +21,13 @@
   text-align: center;
 }
 @media only screen and (max-width: 375px) {
-  .resume-title {
+  .resume-wrapper {
+    display: inline-block;
     
   }
-  .resume-main {
-    display: relative;
-    left: 0%;
-    right: 0%;
+  .resume-content {
+   
+  
     background: #3366cc;
     width: 400px;
     height: 30%;

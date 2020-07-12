@@ -12,11 +12,11 @@ class navBar extends Component {
                 
                     <ul class="nav-links" >
                         <li className="nav-item"><Link to="aboutMe-main" smooth={true} duration={1000}>About Me</Link></li>
-
-                        <li className="nav-item"> <Link to="project-content" smooth={true} duration={1000}>Projects</Link></li>
+                        <li className="nav-item"><Link to="skills-wrapper" smooth={true} duration={1000}>Skills</Link></li>
+                        <li className="nav-item"> <Link to="project-wrapper" smooth={true} duration={1000}>Projects</Link></li>
                        
                        <li className="nav-item">
-                           <Link to="resume-main" smooth={true} duration={1000}>Resume</Link>
+                           <Link to="resume-wrapper" smooth={true} duration={1000}>Resume</Link>
                        </li>
                         
                         <li className="nav-item">

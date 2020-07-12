@@ -1,47 +1,73 @@
-.project-content{
+.project-wrapper {
+  display: grid;
+  grid-template-rows: 3fr;
+  max-width: 1000px;
+}
+.project-content {
   display: flex;
   flex-direction: row;
+  border: 1px solid black;
+  box-shadow: 10px 5px 5px #3366cc;
+  margin: 20px;
+  padding: 15px;
+ 
+}
+.project-section{
+ 
+}
+.project-name{
+  text-shadow:10px 5px 5px #3366cc ;
+}
+.framework-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between; 
+  padding: 10px;
+}
+.frameworks {
+  text-align: center;
+  color: white;
+  border: 1px solid rgb(68, 64, 64);
+  background-color: rgb(68, 64, 64);
+  width: 80px;
+  margin: 5px;
 }
 .al-estate-project {
- 
   width: 475px;
   height: 575px;
-  transition: blur;
-}
-.al-estate-project:hover {
-  filter: blur(4px);
 }
 .al-estate-text {
   margin-top: -7em;
   margin-left: 4em;
 }
-.apex-project {
-  
-  max-width: 475px;
+.apexer-project {
+  width: 425px;
   max-height: 575px;
 }
 
 .kobe-tribute-project {
-  
-  max-width: 475px;
-  max-height: 575px;
+  max-width: 375px;
+  height: 575px;
 }
 
 @media only screen and (max-width: 375px) {
+  .project-content {
+    display: inline-block;
+  }
   .al-estate-project {
     width: 100%;
     height: 500px;
   }
-  .apex-project {
+  .apexer-project {
     display: inline;
     padding: 5px;
     max-width: 800px;
     max-height: 575px;
   }
-  #project-title{
+  #project-title {
     text-align: center;
   }
-  .project-content{
-    height:1000
+  .project-content {
+    height: 1000;
   }
 }

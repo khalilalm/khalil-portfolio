@@ -8,6 +8,7 @@
 .aboutMe-main {
   padding: 10%;
   position: relative;
+  text-align: center;
 }
 .bg-wrapper {
   background-color: rgba(95, 95, 95, 0.884);
@@ -38,7 +39,7 @@
 }
 
 .line {
-  background-color: #3366cc;
+  background-color: black;
 }
 @keyframes slideInFromLeft {
   0% {
@@ -55,5 +56,15 @@
   }
   100% {
     opacity: 1;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .aboutMe-text{
+    text-align: center;
+  }
+  #headShot{
+    display: relative;
+    left:50%;
+    top:50%;
   }
 }

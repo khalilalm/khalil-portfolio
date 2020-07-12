@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./aboutMe.css";
-import head from "../images/head.jpg";
+import head from "../images/head.png";
 import linkedIn from '../images/linkedIn-logo.png';
 import email from "../images/email.png";
 import gh from "../images/github.svg";
@@ -12,7 +12,7 @@ class aboutMe extends Component {
         <div className="aboutMe-main">
           <div className="bg-wrpper">
           <h1 className="aboutMe-text">Khalil Al-Mujeeb </h1>
-          <h2 className="aboutMe-text">React Front-End Web Developer</h2>
+          <h2 className="aboutMe-text">Front-End Web Developer</h2>
            </div>
           <div className="img-container"></div>
           <img id="headShot" src={head}></img>
