@@ -21,7 +21,7 @@ class aboutMe extends Component {
           <ul>
             <p>
               <b>
-                I've been programming for 2 years but have been working with
+                I've been programming for 1 years but have been working with
                 front end for about a year.
               </b>
             </p>
