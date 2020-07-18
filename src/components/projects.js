@@ -33,7 +33,7 @@ class projects extends Component {
             <a href="https://github.com/khalilalm"> <img src={gh}className='work-link'></img></a>
           </div>
           <div className="project-section" style={{ display: "inline-block" }}>
-            <h2 className="project-name">Apexer</h2>
+            <h2 className="project-name"><a href="https://apexer.herokuapp.com/">Apexer</a></h2>
             <p><strong>Description:</strong> Apex Stat Tracking App made using TRN developer api for stat information and then used express to get the URL for the api </p>
             <p>Made Using:</p>
             <div className="framework-content" style={{"padding":"28px"}}>
@@ -50,7 +50,7 @@ class projects extends Component {
           </div>
 
           <div className="project-section" style={{ display: "inline-block" }}>
-            <h2 className="project-name">Kobe Tribute</h2>
+            <h2 className="project-name"><a href="https://kobetribute.herokuapp.com/">Kobe Tribute</a></h2>
             <p><strong>Description:</strong>
             Tribute page showcasing HTML and CSS styling techniques under the react framework in an organized design pattern</p>
             <p>Made Using:</p>
@@ -62,7 +62,7 @@ class projects extends Component {
             </div>
            
               <img src={kobe} className="kobe-tribute-project"></img>
-              <a href="https://github.com/khalilalm"> <img src={gh}className='work-link'></img></a>
+              <a href="https://github.com/khalilalm/kobe-tribute"> <img src={gh}className='work-link'></img></a>
             
           </div>
         </div>
