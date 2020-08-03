@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./aboutMe.css";
 import head from "../images/head.png";
 import linkedIn from "../images/linkedIn-logo.png";
-import email from "../images/email.png";
+import instagram from "../images/instagram.png";
 import gh from "../images/github.svg";
 import { Link } from "react-router-dom";
 class aboutMe extends Component {
@@ -52,6 +52,11 @@ class aboutMe extends Component {
           <a href="https://www.linkedin.com/in/khalil-al-mujeeb-234122100/">
             {" "}
             <img src={linkedIn} className="work-link"></img>
+          </a>
+          
+          <a href="https://www.instagram.com/khalil_freelancing/">
+            {" "}
+            <img src={instagram} className="work-link"></img>
           </a>
           <div className="line"></div>
         </div>

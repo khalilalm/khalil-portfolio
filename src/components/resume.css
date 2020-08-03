@@ -1,7 +1,16 @@
-.resume-wrapper { 
+.resume-main {
+  display: grid;
+}
+.text {
+  float: right;
+}
+.text-h {
+  text-align: right;
+}
+.resume-wrapper {
   display: inline-block;
   border: 1px solid black;
-  box-shadow:  10px 5px 5px #3366cc;
+  box-shadow: 10px 5px 5px ;
   padding: 20px;
   margin: 30px;
 }
@@ -11,9 +20,7 @@
   justify-content: center;
   width: 50%;
   margin: 0 auto;
-
 }
-
 .resume-title {
   text-align: center;
 }
@@ -23,18 +30,12 @@
 @media only screen and (max-width: 375px) {
   .resume-wrapper {
     display: inline-block;
-    
   }
   .resume-content {
-   
-  
     background: #3366cc;
-    width: 400px;
+    width: 200px;
     height: 30%;
     margin: 0 auto;
-}
-.resume-image {
+  }
   
-  right: 100%;
-}
 }

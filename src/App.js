@@ -1,4 +1,5 @@
 import React from 'react';
+import Particles from 'react-particles-js';
 import NavBar from './components/navBar'
 import AboutMe from './components/aboutMe'
 import Skills from './components/skills'
@@ -14,13 +15,14 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-
+  
      <NavBar />
      <AboutMe />
      <Skills />
      <Projects />
      <Resume />
      <Contact />
+     
     </div>
     </BrowserRouter>
   );

@@ -13,7 +13,7 @@ class skills extends Component {
   render() {
     return (
       <div className="skills-wrapper">
-        <h1 style={{ "text-align": "center", "text-shadow":"10px 5px 5px black"   }}>Skills</h1>
+        <h1 style={{ "text-align": "center", }}>Skills</h1>
         <div className="skills-content">
             <img src={htmlCss} className="skill-imgs"></img>
             <img src={bootstrap} className="skill-imgs"  style={{ "width": "250px" }}></img>

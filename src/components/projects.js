@@ -11,7 +11,7 @@ class projects extends Component {
   render() {
     return (
       <div className="project-wrapper">
-        <h1 id="projects-title" style={{ "text-align": "center","text-shadow":"10px 5px 5px black"  }}>
+        <h1 id="projects-title" style={{ "text-align": "center" }}>
           Projects
         </h1>
         <div  className="project-content">

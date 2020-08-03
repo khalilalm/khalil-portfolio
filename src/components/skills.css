@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
    border: 1px solid black;
-   box-shadow:  10px 5px 5px #3366cc;
+   box-shadow:  10px 5px 5px black;
    padding: 20px;
    margin: 20px;
 
