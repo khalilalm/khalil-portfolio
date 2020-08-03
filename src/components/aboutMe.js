@@ -21,8 +21,8 @@ class aboutMe extends Component {
           <ul>
             <p>
               <b>
-                I've been programming for 2 years but have been working with
-                front end for about a year.
+                I'm was originally raised in South Carolina with my mom, 3 siblings and a huge passion for technology. I've been programming for 2 years ,but have been working with 
+                front end development 8 hours a day for about a year.
               </b>
             </p>
             <p>
@@ -40,7 +40,7 @@ class aboutMe extends Component {
             </p>
           </ul>
           <strong>
-            <p>For any business inquires contact me at the links below .</p>
+            <p>For any business inquires contact me at the links below. Feel free to browse my social links.</p>
           </strong>
 
           <a href="https://github.com/khalilalm">
