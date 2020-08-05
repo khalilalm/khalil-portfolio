@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./projects.css";
 import gh from "../images/github.svg";
-import logos from "../images/htmlcss.png";
+
 import alEstate from "../images/Al-Estate.png";
 import apexer from "../images/Apexer.png";
 import kobe from "../images/kobe.png";
@@ -17,7 +17,7 @@ class projects extends Component {
         <div  className="project-content">
           <div className="project-section" style={{ display: "inline-block" }}>
             <h2 className="project-name"><a href="https://al-estate.herokuapp.com/">Al-Estate</a></h2>
-            <p><strong>Description:</strong> Full Stack Home Tracking app the takes in housing info you want to keep with you and let's you create, remove, edit and delete listings</p>
+            <p><strong>Description:</strong> Full Stack Home Tracking app that takes in housing info you want to keep with you and let's you create, remove, edit and delete listings.</p>
             <p>Made Using:</p>
             <div className="framework-content">
               <p className="frameworks">Bootstrap</p>
@@ -34,7 +34,7 @@ class projects extends Component {
           </div>
           <div className="project-section" style={{ display: "inline-block" }}>
             <h2 className="project-name"><a href="https://apexer.herokuapp.com/">Apexer</a></h2>
-            <p><strong>Description:</strong> Apex Stat Tracking App made using TRN developer api for stat information and then used express to get the URL for the api </p>
+            <p><strong>Description:</strong> Apex Stat Tracking App made using TRN developer api for stat information and then used express to get the URL for the api. </p>
             <p>Made Using:</p>
             <div className="framework-content" style={{"padding":"28px"}}>
               <p className="frameworks">Bootstrap</p>
@@ -52,7 +52,7 @@ class projects extends Component {
           <div className="project-section" style={{ display: "inline-block" }}>
             <h2 className="project-name"><a href="https://kobetribute.herokuapp.com/">Kobe Tribute</a></h2>
             <p><strong>Description:</strong>
-            Tribute page showcasing HTML and CSS styling techniques under the react framework in an organized design pattern</p>
+            Tribute page showcasing HTML and CSS styling techniques under the react framework in an organized design pattern.</p>
             <p>Made Using:</p>
             <div className="framework-content" style={{"padding":"28px"}}>
               <p className="frameworks">Bootstrap</p>
