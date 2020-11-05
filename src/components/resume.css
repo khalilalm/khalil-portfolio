@@ -18,11 +18,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
   margin: 0 auto;
 }
 .resume-title {
   text-align: center;
+  
 }
 .resume-subhead {
   text-align: center;
@@ -37,5 +37,22 @@
     height: 30%;
     margin: 0 auto;
   }
+  @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+  .resume-image{
+    width: 300px;
+  }
+  .resume-wrapper {
+    display: inline-block;
+  }
+  .resume-content {
+    background: #3366cc;
+    width: 100px;
+    height: 30%;
+    margin: 0 auto;
+  }
+}
   
 }

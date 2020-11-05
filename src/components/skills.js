@@ -17,7 +17,7 @@ class skills extends Component {
         <div className="skills-content">
             <img src={htmlCss} className="skill-imgs"></img>
             <img src={bootstrap} className="skill-imgs"  style={{ "width": "250px" }}></img>
-            <img src={react} className="skill-imgs" style={{ "width": "350px" }}></img>
+            <img src={react} className="skill-imgs" style={{ "width": "300px" }}></img>
             <img src={express} className="skill-imgs"></img>
             <img src={node} className="skill-imgs"></img>
             <img src={mongo} className="skill-imgs"  style={{ "width": "200px" }}></img>

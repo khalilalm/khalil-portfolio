@@ -1,7 +1,7 @@
 .project-wrapper {
   display: grid;
   grid-template-rows: 3fr;
-  max-width: 1000px;
+  max-width: 100px;
 }
 .project-content {
   display: flex;
@@ -9,19 +9,15 @@
   border: 1px solid rgb(49, 45, 45);
   box-shadow: 10px 5px 5px;
   margin: 20px;
-  padding: 15px;
- 
 }
-.project-section{
- 
+.project-section {
 }
-.project-name{
-  
+.project-name {
 }
 .framework-content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding: 10px;
 }
 .frameworks {
@@ -69,5 +65,59 @@
   }
   .project-content {
     height: 1000;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .project-wrapper {
+    display: grid;
+    grid-template-rows: 1fr;
+    max-width: 25px;
+  }
+  .project-content {
+    display: inline;
+    flex-direction: row;
+    border: 1px solid rgb(49, 45, 45);
+    box-shadow: 1px 1px 1px black;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .framework-content {
+    display: inline;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .frameworks {
+    display: flexbox;
+    text-align: center;
+    color: white;
+    border: 1px solid rgb(68, 64, 64);
+    background-color: rgb(68, 64, 64);
+    width: 100px;
+  }
+  .f-icons {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .al-estate-project {
+    display: inline;
+    width: 300px;
+    height: 300px;
+  }
+  .al-estate-text {
+    margin-top: -7em;
+    margin-left: 4em;
+  }
+  .apexer-project {
+    width: 300px;
+    height: 300px;
+  }
+
+  .kobe-tribute-project {
+    width: 300px;
+    height: 300px;
   }
 }

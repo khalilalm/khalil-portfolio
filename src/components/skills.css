@@ -1,14 +1,29 @@
-.skills-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-   border: 1px solid black;
-   box-shadow:  10px 5px 5px black;
-   padding: 20px;
-   margin: 20px;
-
+.skills-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 1px solid black;
+  box-shadow: 10px 5px 5px black;
+  padding: 20px;
+  margin: 20px;
 }
 
-.skill-imgs{
-    width: 300px;
+.skill-imgs {
+  width: 200px;
+  height: 200px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .skills-content {
+    display: inline-block;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    padding: 20px;
+    margin: 5px;
+    
+  }
+
+  .skill-imgs {
+    width: 200px;
     height: 200px;
+  }
 }
