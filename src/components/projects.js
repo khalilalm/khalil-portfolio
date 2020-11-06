@@ -86,8 +86,8 @@ class projects extends Component {
               <a href="https://kobetribute.herokuapp.com/">Kobe Tribute</a>
             </h2>
             <p>
-              <strong>Description:</strong>
-              Tribute page showcasing HTML and CSS styling techniques under the
+              <strong>Description: </strong>
+            Tribute page showcasing HTML and CSS styling techniques under the
               react framework in an organized design pattern.
             </p>
             <p>Made Using:</p>
