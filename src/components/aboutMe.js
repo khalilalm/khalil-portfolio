@@ -20,27 +20,27 @@ class aboutMe extends Component {
 
           <ul>
             <p>
-              <b>
+              <b style={{"color":"grey"}}>
                 I'm was originally raised in South Carolina with my mom, 3 siblings and a huge passion for technology. I've been programming for 2 years ,but have been working with 
                 front end development 8 hours a day for about a year.
               </b>
             </p>
             <p>
-              <b>
+              <b  style={{"color":"grey"}}>
                 {" "}
                 Programming is a huge passion for me and I use this website to
                 showcase my progress.
               </b>
             </p>
             <p>
-              <b>
+              <b  style={{"color":"grey"}}>
                 I mainly do front end work, but have a firm grasp of the MERN
                 stack.
               </b>
             </p>
           </ul>
           <strong>
-            <p>For any business inquires contact me at the links below. Feel free to browse my social links.</p>
+            <p  style={{"color":"grey"}}>For any business inquires contact me at the links below. Feel free to browse my social links.</p>
           </strong>
 
           <a href="https://github.com/khalilalm">
