@@ -2,7 +2,7 @@
   font-weight: bold;
 }
 .nav-content {
-  position: sticky;
+  position: fixed;
   z-index: 1;
   width: 100%;
   background: #3366cc ;

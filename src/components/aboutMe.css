@@ -68,10 +68,14 @@
     top:50%;
   }
 }
+/*
+Iphone X
+*/
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) {  .aboutMe-text{
+and (-webkit-device-pixel-ratio : 3) {  
+  .aboutMe-text{
   text-align: center;
 }
 .aboutMe-text{
@@ -82,3 +86,26 @@ and (-webkit-device-pixel-ratio : 3) {  .aboutMe-text{
   left:50%;
   top:100%;
 }}
+
+/*Iphone 6,7,8*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+  .aboutMe-text{
+    text-align: center;
+  }
+  .aboutMe-text{
+    text-align: center;
+  }
+  #headShot{
+    display: relative;
+    left:50%;
+    top:100%;
+  }
+  .bg-wrapper {
+    background-color: rgba(95, 95, 95, 0.884);
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+  }
+}

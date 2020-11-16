@@ -15,6 +15,7 @@ class skills extends Component {
       <div className="skills-wrapper">
         <h1 style={{ "text-align": "center", }}>Skills</h1>
         <div className="skills-content">
+          
             <img src={htmlCss} className="skill-imgs"></img>
             <img src={bootstrap} className="skill-imgs"  style={{ "width": "250px" }}></img>
             <img src={react} className="skill-imgs" style={{ "width": "300px" }}></img>

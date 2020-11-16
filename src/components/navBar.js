@@ -16,7 +16,7 @@ class navBar extends Component {
                         <li className="nav-item"> <Link to="project-wrapper" smooth={true} duration={1000}>Projects</Link></li>
                        
                        <li className="nav-item">
-                           <Link to="resume-wrapper" smooth={true} duration={1000}>Resume</Link>
+                           <Link to="resume-main" smooth={true} duration={1000}>Resume</Link>
                        </li>
                         
                         <li className="nav-item">
