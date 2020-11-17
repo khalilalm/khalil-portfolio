@@ -12,7 +12,7 @@ class resume extends Component {
           <div className="resume-content">
             <a
               
-              href="https://drive.google.com/file/d/1uItmdK5P2hv2DrddRrw7gM3QSUQYLJqB/view"
+              href="https://drive.google.com/file/d/1PGkVqGbHaj00xO5Vn7qUf-uqKBb8pTIG/view?usp=sharing"
             >
               <img className="resume-image" src={resumeI}></img>
             </a>
