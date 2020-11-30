@@ -30,3 +30,18 @@ and (max-device-width : 667px) {
     height: 200px;
   }
 }
+@media (max-width: 361px) {
+  .skills-content {
+    display: inline-block;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    padding: 20px;
+    margin: 5px;
+    
+  }
+
+  .skill-imgs {
+    width: 200px;
+    height: 200px;
+  }
+  }
