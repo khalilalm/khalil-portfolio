@@ -46,6 +46,60 @@
   height: 575px;
 }
 
+/*Iphone 6,7,8*/
+.project-wrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+  max-width: 25px;
+}
+.project-content {
+  display: inline;
+  flex-direction: row;
+  border: 1px solid rgb(49, 45, 45);
+  box-shadow: 1px 1px 1px black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.framework-content {
+  display: inline;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  padding: 10px;
+}
+.frameworks {
+  display: flexbox;
+  text-align: center;
+  color: white;
+  border: 1px solid rgb(68, 64, 64);
+  background-color: rgb(68, 64, 64);
+  width: 100px;
+}
+.f-icons {
+  display: grid;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.al-estate-project {
+  display: inline;
+  width: 300px;
+  height: 300px;
+}
+.al-estate-text {
+  margin-top: -7em;
+  margin-left: 4em;
+}
+.apexer-project {
+  width: 300px;
+  height: 300px;
+}
+
+.kobe-tribute-project {
+  width: 300px;
+  height: 300px;
+}
+
 @media only screen and (max-width: 375px) {
   .project-content {
     display: inline-block;
@@ -66,6 +120,27 @@
   .project-content {
     height: 1000;
   }
+}
+
+.nav-title {
+  align-items: center;
+}
+.nav-title::after {
+  content: "";
+}
+.nav-links {
+  cursor: pointer;
+  float: left;
+}
+.nav-content {
+  position: fixed;
+  text-align: center;
+  z-index: 1;
+  width: 99%;
+}
+.bar li {
+  display: inline-block;
+  padding: 5px;
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
   .project-wrapper {

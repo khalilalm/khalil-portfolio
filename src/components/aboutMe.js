@@ -21,7 +21,7 @@ class aboutMe extends Component {
           <ul>
             <p>
               <b style={{"color":"grey"}}>
-                I'm was originally raised in South Carolina with my mom, 3 siblings and a huge passion for technology. I've been programming for 2 years, but have been working with 
+               I've been programming for 2 years, but have been working with 
                 front end development 8 hours a day for about 2 years.
               </b>
             </p>

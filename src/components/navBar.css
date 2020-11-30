@@ -36,6 +36,32 @@
 .nav-item:hover {
   background-color:  rgb(119, 156, 236);
 }
+/*Iphone 6,7,8*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+  .nav-title{
+    align-items: center;
+  }
+  .nav-title::after{
+    content:""
+  }
+  .nav-links {
+    cursor: pointer;
+    float: left;
+  }
+  .nav-content{
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+  width: 99%;
+  }
+  .bar li {
+    display: inline-block;
+    padding: 5px;
+  }
+
+}
 
 @media only screen 
 and (min-device-width : 375px) 
