@@ -50,6 +50,9 @@ and (max-device-width : 667px) {
 
 
 @media only screen and (max-width: 375px) {
+  .resume-image{
+    width: 200px;
+  }
   .resume-wrapper {
     display: inline-block;
   }
@@ -64,7 +67,7 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) { 
   .resume-image{
-    width: 300px;
+    width: 200px;
   }
   .resume-wrapper {
     display: inline-block;
