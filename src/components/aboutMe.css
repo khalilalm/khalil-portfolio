@@ -1,9 +1,13 @@
+* {
+  font-family: 'Langar', cursive;
+}
 .bg-img {
+  background-color: var(--clr-light);
   background-image: url(../images/ms.jpg);
   z-index: 1;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background-size:cover;
+  background-blend-mode: multiply;
+  min-width: 100%;
 }
 .aboutMe-main {
   padding: 10%;

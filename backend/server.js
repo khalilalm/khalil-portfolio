@@ -1,47 +1,74 @@
-const express = require('express');
-const morgan = require('morgan');
-const dotenv = require('dotenv');
-const bodyParser = require('body-parser');
-const nodemailer = require('nodemailer');
-const cors = require('cors');
-
+const express = require("express");
 const app = express();
-dotenv.config({path:'../config.env'})
-app.use(morgan('common'));
-app.use(bodyParser.urlencoded({extended: true}))
-app.use(cors());
+const nodemailer = require("nodemailer");
+const bodyParser = require("body-parser");
+const path = require("path");
+const cors = require('cors')
+app.use("/public", express.static(path.join(__dirname, "public")));
+app.use(cors())
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(function (req, res, next) {
 
+  // Website you wish to allow to connect
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8888');
 
-app.post('/contact', (req, res) => {
-    const smtpTrans = nodemailer.createTransport({
-        host: 'smtp.gmail.com',
-        port: 465,
-        secure: true,
-        auth: {
-            user: 'almujeebkhalil@gmail.com',
-            pass: 'kal653994'
-        }
-    })
+  // Request methods you wish to allow
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
 
-    const mailOpts = {
-        from: 'Sender info',
-        to: 'almujeebkhalil@gmail.com',
-        subject: 'New message from contact form at ...',
-        text: `${req.body.name} (${req.body.email}) says: ${req.body.message}`
+  // Request headers you wish to allow
+  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+
+  // Set to true if you need the website to include cookies in the requests sent
+  // to the API (e.g. in case you use sessions)
+  res.setHeader('Access-Control-Allow-Credentials', true);
+
+  // Pass to next layer of middleware
+  next();
+});
+app.post("/access", (req, res) => {
+  console.log(req.body)
+  const output = `
+    <p>You have a new contact request</p>
+    <h3>Contact Details</h3>
+    <ul>  
+      <li>Name: ${req.body.name}</li>
+     
+      <li>Email: ${req.body.email}</li>
+      <li>Phone: ${req.body.phoneNum}</li>
+    </ul>
+    <h3>Message</h3>
+    <p>${req.body.message}</p>
+  `;
+
+  const transporter = nodemailer.createTransport({
+    tls: {
+      rejectUnauthorized: false,
+    },
+    service: "gmail",
+    auth: {
+      user: "almujeebkhalil@gmail.com",
+      pass: "Kman147!",
+    },
+  });
+
+  let mailOptions = {
+    from: "almujeebkhalil@gmail.com",
+    to: "almujeebkhalil@gmail.com",
+    subject: "Testing Testing ...",
+    text: "It Worked!!!",
+    html: output,
+  };
+
+  transporter.sendMail(mailOptions, function (err, data) {
+    if (err) {
+      console.log("Errror" + err);
+    } else {
+      console.log("Email Sent Success!!!");
     }
-
-    smtpTrans.sendMail(mailOpts, (error, response) => {
-        if(error) {
-            res.render('contact-failure')
-        }else {
-            res.render('contact-success')
-        }
-    })
-})
-
-
-
-const port = process.env.PORT || 5000;
+  });
+});
+const port = 3001;
 app.listen(port, () => {
-    console.log(`Server running on port ${port}`)
+  console.log(`listening on port ${port}`);
 });

@@ -1,15 +1,30 @@
+.skills-wrapper{
+  position: relative;
+  width: 100%;
+  margin:20px;
+  padding-top: 30%;
+  margin-bottom:10%;
+ clear:both;
+}
 .skills-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: absolute; 
+  vertical-align:top;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 100%;
   border: 1px solid black;
   box-shadow: 10px 5px 5px black;
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
+  
 }
 
 .skill-imgs {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: 30px;
+
 }
 
 /*Iphone 6,7,8*/
