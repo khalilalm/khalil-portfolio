@@ -6,9 +6,9 @@ class resume extends Component {
   render() {
     return (
       <div className="resume-main">
-        <h1 className="resume-title">Resume</h1>
+     
         <div className="resume-wrapper">
-          
+             <h1 className="resume-title">Resume</h1>
           <div className="resume-content">
             <a
               

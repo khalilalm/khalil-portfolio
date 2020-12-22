@@ -1,22 +1,30 @@
-.skills-wrapper{
+.skills-wrapper {
   position: relative;
   width: 100%;
-  margin:20px;
-  padding-top: 30%;
-  margin-bottom:10%;
- clear:both;
+  margin: 20px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  clear: both;
+}
+.skills-container{
+  padding:15%;
+
 }
 .skills-content {
-  position: absolute; 
-  vertical-align:top;
+  position: absolute;
+  display: flex;
+  flex-wrap:wrap;
+
+  padding: 20px;
+  margin: 5px;
+  vertical-align: top;
   top: 0;
   left: 0;
   width: 95%;
-  height: 100%;
+  
   border: 1px solid black;
   box-shadow: 10px 5px 5px black;
   padding: 10px;
-  
 }
 
 .skill-imgs {
@@ -24,20 +32,16 @@
   height: 100px;
   padding: 20px;
   margin: 30px;
-
 }
 
 /*Iphone 6,7,8*/
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   .skills-content {
     display: inline-block;
     border: 1px solid black;
     box-shadow: 1px 1px 1px black;
     padding: 20px;
     margin: 5px;
-    
   }
 
   .skill-imgs {
@@ -52,11 +56,10 @@ and (max-device-width : 667px) {
     box-shadow: 1px 1px 1px black;
     padding: 20px;
     margin: 5px;
-    
   }
 
   .skill-imgs {
     width: 200px;
     height: 200px;
   }
-  }
+}

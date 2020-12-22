@@ -1,13 +1,19 @@
 * {
   font-family: 'Langar', cursive;
+  
+    
+  
 }
+ div {
+   overflow: hidden; /* Hide scrollbars */
+ }
 .bg-img {
   background-color: var(--clr-light);
   background-image: url(../images/ms.jpg);
   z-index: 1;
   background-size:cover;
   background-blend-mode: multiply;
-  min-width: 100%;
+  width: 100%;
 }
 .aboutMe-main {
   padding: 10%;
