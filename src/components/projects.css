@@ -34,11 +34,7 @@ width: fit-content;
   position: relative;
   z-index: 2;
 }
-/* .portfolio-img:hover,
-.portfolio-item:focus .portfolio-img {
-  transform: scale(1.2);
-  opacity: 0.75;
-} */
+
 .textOverImage{
   position:relative;
   width:500px;
