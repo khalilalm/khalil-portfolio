@@ -13,10 +13,10 @@ class skills extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <h1 style={{ "text-align": "center" }}>Skills</h1>
+      
+       
 
-        <div className="skills-wrapper">
+        <div className="skills-wrapper"> <h1 style={{ "text-align": "center" }}>Skills</h1>
           <div className="skills-container">
             <div className="skills-content">
               <img src={html} className="skill-imgs"></img>
@@ -31,7 +31,7 @@ class skills extends Component {
             </div>
           </div>
         </div>
-      </div>
+      
     );
   }
 }

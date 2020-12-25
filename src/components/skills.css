@@ -33,33 +33,42 @@
   padding: 20px;
   margin: 30px;
 }
-
-/*Iphone 6,7,8*/
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-  .skills-content {
-    display: inline-block;
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px black;
-    padding: 20px;
-    margin: 5px;
+/* Media for Mobile devices Tablets and Phones */
+@media all and (min-width:960px) and (max-width: 1024px) {
+  
+  .skills-container{
+    margin: 200px;
   }
 
-  .skill-imgs {
-    width: 200px;
-    height: 200px;
+}
+
+@media all and (min-width:801px) and (max-width: 959px) {
+  
+  .skills-container{
+    margin: 200px;
+    
+  }
+  .skills-content{
+    margin: 0px;
   }
 }
-@media (max-width: 361px) {
-  .skills-content {
-    display: inline-block;
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px black;
-    padding: 20px;
-    margin: 5px;
-  }
 
-  .skill-imgs {
-    width: 200px;
-    height: 200px;
-  }
+@media all and (min-width:769px) and (max-width: 800px) {
+  /* put your css styles in here */
+}
+
+@media all and (min-width:569px) and (max-width: 768px) {
+  /* put your css styles in here */
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+  /* put your css styles in here */
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+  /* put your css styles in here */
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+  /* put your css styles in here */
 }

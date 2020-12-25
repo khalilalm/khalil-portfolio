@@ -56,7 +56,7 @@ const navSlide = () => {
               {" "}
               <Link
                 className="Nav-a"
-                to="project-wrapper"
+                to="my-projects"
                 smooth={true}
                 duration={1000}
               >

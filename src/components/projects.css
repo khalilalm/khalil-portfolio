@@ -80,3 +80,164 @@ width: fit-content;
   font-weight:bold;
   font-size:1.5em;
 }
+
+/* Media for Mobile devices Tablets and Phones */
+@media all and (min-width:960px) and (max-width: 1024px) {
+  
+
+
+}
+
+@media all and (min-width:801px) and (max-width: 959px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+   }
+   
+  .portfolio-img {
+    width: 500px;
+    height: 300px;
+    
+  }
+  .textOverImage{
+    position:relative;
+    width:500px;
+    height:300px;
+    float:left;
+    margin:0px;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+  }
+  
+}
+
+@media all and (min-width:769px) and (max-width: 800px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+   }
+   
+  .portfolio-img {
+    width: 500px;
+    height: 300px;
+    
+  }
+  .textOverImage{
+    position:relative;
+    width:500px;
+    height:300px;
+    float:left;
+    margin:0px;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+  }
+}
+
+@media all and (min-width:569px) and (max-width: 768px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+   }
+   
+  .portfolio-img {
+    width: 500px;
+    height: 300px;
+    
+  }
+  .textOverImage{
+    position:relative;
+    width:400px;
+    height:200px;
+    float:left;
+    margin:0px;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+  }
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+  .my-projects {
+    background-color: #3366cc;
+    width: 100%;
+    color: black;
+    text-align: center;
+    height: 100%;
+   
+  }
+
+  .portfolio {
+    display: inline;
+    flex-direction: column;
+    
+   }
+   
+  .portfolio-img {
+    width: 500px;
+    height: 300px;
+    
+  }
+  .textOverImage{
+    position:relative;
+    width:500px;
+    height:300px;
+    float:left;
+    margin:0px;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+  }
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+   }
+   
+  .portfolio-img {
+    width: 500px;
+    height: 300px;
+    
+  }
+  .textOverImage{
+    position:relative;
+    width:500px;
+    height:300px;
+    float:left;
+    margin:0px;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+  }
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+   }
+   
+  .portfolio-img {
+    width: 500px;
+    height: 300px;
+    
+  }
+  .textOverImage{
+    position:relative;
+    width:500px;
+    height:300px;
+    float:left;
+    margin:0px;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+  }
+}
