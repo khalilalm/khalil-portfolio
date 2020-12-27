@@ -4,9 +4,7 @@
     
   
 }
- div {
-   overflow: hidden; /* Hide scrollbars */
- }
+ 
 .bg-img {
   background-color: var(--clr-light);
   background-image: url(../images/ms.jpg);
@@ -115,7 +113,7 @@ and (max-device-width : 667px) {
   .bg-wrapper {
     background-color: rgba(95, 95, 95, 0.884);
     border: 1px solid black;
-    width: 500px;
+    width: 100%;
     height: 200px;
   }
 }
