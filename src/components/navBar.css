@@ -1,18 +1,18 @@
-nav{
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: #3366cc;;
+  background-color: #3366cc;
 }
 nav .logo {
   padding: 22px 20px;
   height: 80px;
   float: left;
   font-size: 24px;
-  transition: .3s;
+  transition: 0.3s;
 }
-nav ul{
+nav ul {
   float: right;
   list-style: none;
   float: right;
@@ -21,24 +21,23 @@ nav ul{
   display: flex;
   background-color: var(--bg-primary);
   transition: width 600ms ease;
- 
 }
 nav ul li {
   list-style: none;
 }
-nav ul li a{
+nav ul li a {
   line-height: 80px;
   color: #151515;
   padding: 12px 30px;
   text-decoration: none;
   text-transform: uppercase;
-  transition: .3s;
+  transition: 0.3s;
 }
-nav ul li a:focus{
+nav ul li a:focus {
   outline: none;
 }
-nav ul li a.active{
-  background: #E247;
+nav ul li a.active {
+  background: #e247;
   color: #fff;
   border-radius: 6px;
 }
@@ -47,24 +46,22 @@ nav ul li a.active{
   background-color: rgb(119, 156, 236);
 }
 
-.burger{
+.burger {
   display: none;
   cursor: pointer;
 }
-.burger div{
+.burger div {
   width: 25px;
   height: 5px;
   background-color: black;
   margin: 5px;
-
 }
 
 /*General Media Query*/
 @media screen and (max-width: 1024px) {
-
 }
 @media screen and (max-width: 768px) {
-  body{
+  body {
     overflow-x: hidden;
   }
   nav ul {
@@ -72,69 +69,72 @@ nav ul li a.active{
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #5D4954;
+    background-color: #5d4954;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    
+
     transform: translateX(100%);
   }
   nav li {
     opacity: 0;
   }
-  .burger{
+  .burger {
     display: block;
   }
   .nav-active {
     transform: translateX(0%);
   }
 
-  @keyframes navLinkFade{
-    from{
+  @keyframes navLinkFade {
+    from {
       opacity: 0;
       transform: translateX(50px);
     }
-    to{
+    to {
       opacity: 1;
       transform: translateX(0px);
     }
   }
 
-  .toggle .line1{
-    transform: rotate(-45deg translate(-5px,6px));
+  .toggle .line1 {
+    transform: rotate(-45deg translate(-5px, 6px));
   }
-  .toggle .line2{
+  .toggle .line2 {
     opacity: 0;
   }
-  .toggle .line3{
+  .toggle .line3 {
     transform: rotate(45deg translate(-5px, -6px));
   }
 }
 
+/* Media for Mobile devices Tablets and Phones */
+@media all and (min-width: 960px) and (max-width: 1024px) {
+}
 
+@media all and (min-width: 801px) and (max-width: 959px) {
+}
 
+@media all and (min-width: 769px) and (max-width: 800px) {
+}
 
+@media all and (min-width: 569px) and (max-width: 768px) {
+}
 
+@media all and (min-width: 481px) and (max-width: 568px) {
+}
 
+@media all and (min-width: 321px) and (max-width: 480px) {
+  /* put your css styles in here */
+}
 
+@media all and (min-width: 0px) and (max-width: 320px) {
+  /* put your css styles in here */
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 375px) {
+}
 
 /*Iphone 6,7,8*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
@@ -159,27 +159,6 @@ nav ul li a.active{
     padding: 5px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
   .nav-title {
