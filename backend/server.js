@@ -8,11 +8,17 @@ app.use("/public", express.static(path.join(__dirname, "public")));
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+app.use(express.static(path.join(__dirname, "../public", "build")))
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client", "build", "index.html"));
+});
+
 app.use(function (req, res, next) {
 
-  app.use(express.static(path.join(__dirname, 'public')))
   // Website you wish to allow to connect
-  res.setHeader('Access-Control-Allow-Origin', 'https://khalil-almujeeb-portfolio.herokuapp.com/');
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3003');
 
   // Request methods you wish to allow
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');

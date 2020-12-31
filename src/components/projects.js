@@ -28,6 +28,7 @@ class projects extends Component {
               
             </div>
           </a>
+          <a href="https://kobetribute.herokuapp.com/">
           <div
             className="textOverImage"
             data-text="Kobe Bryant Tribute Page                                                                                                                                                                                                                                Tribute page showcasing HTML and CSS styling techniques under the
@@ -37,6 +38,8 @@ class projects extends Component {
               <img className="portfolio-img" src={kobe}></img>
             </a>
           </div>
+          </a>
+          <a href="https://al-estate.herokuapp.com/">
           <div
             className="textOverImage"
             data-text="Al-Estate                                                                                                                                                                                                                              Full Stack Home Tracking app that
@@ -46,7 +49,7 @@ class projects extends Component {
             <a className="portfolio-item">
               <img className="portfolio-img" src={alEstate}></img>
             </a>
-          </div>
+          </div></a>
           <div
             className="textOverImage"
             data-text="Twitch Clone
