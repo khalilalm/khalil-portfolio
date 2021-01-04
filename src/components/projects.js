@@ -20,7 +20,7 @@ class projects extends Component {
               className="textOverImage"
               data-text="Apexer                                                                                                                                                                                                                               Apex Stat Tracking App made using
            TRN developer api for stat information and then used express to
-           get the URL for the api."
+           get the URL for the api.                                                                                                                                                                                                                             Technologies: -HTML -CSS -React -NodeJS "
             >
               <a className="portfolio-item">
                 <img className="portfolio-img" src={apexer}></img>
@@ -32,7 +32,7 @@ class projects extends Component {
           <div
             className="textOverImage"
             data-text="Kobe Bryant Tribute Page                                                                                                                                                                                                                                Tribute page showcasing HTML and CSS styling techniques under the
-      react framework in an organized design pattern."
+      react framework in an organized design pattern.                                                                                                                                                                                                                              Technologies: -HTML -CSS -React "
           >
             <a className="portfolio-item">
               <img className="portfolio-img" src={kobe}></img>
@@ -44,7 +44,7 @@ class projects extends Component {
             className="textOverImage"
             data-text="Al-Estate                                                                                                                                                                                                                              Full Stack Home Tracking app that
                   takes in housing info you want to keep with you and let's you
-                  create, remove, edit and delete listings."
+                  create, remove, edit and delete listings.                                                                                                                                                                                                                             Technologies: -HTML -CSS -React -NodeJS -MongoDB"
           >
             <a className="portfolio-item">
               <img className="portfolio-img" src={alEstate}></img>
@@ -52,7 +52,7 @@ class projects extends Component {
           </div></a>
           <div
             className="textOverImage"
-            data-text="Twitch Clone
+            data-text="Twitch Clone                                                                                                                                                                                                                             A clone of the popular streaming website twitch. Uses up to react hooks, css grid, flexbox and other core css styling elements.                                                                                                                                                                                                                             Technologies: -HTML -CSS -React
           "
           >
             <a className="portfolio-item">

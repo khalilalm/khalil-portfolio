@@ -12,11 +12,17 @@
   background-size:cover;
   background-blend-mode: multiply;
   width: 100%;
+  
 }
 .aboutMe-main {
   padding: 10%;
   position: relative;
   text-align: center;
+}
+.info-text{
+  border: 1px black solid;
+  padding: 10px;
+  background-color: rgb(104, 93, 93);
 }
 .bg-wrapper {
   background-color: rgba(95, 95, 95, 0.884);

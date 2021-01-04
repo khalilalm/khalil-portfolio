@@ -13,26 +13,19 @@ class skills extends Component {
   state = {};
   render() {
     return (
-      
-       
-
-        <div className="skills-wrapper"> 
+      <div className="skills-wrapper">
         <h1 style={{ "text-align": "center" }}>Skills</h1>
-          
-            
-              <img src={html} className="skill-imgs"></img>
-              <img src={css} className="skill-imgs"></img>
-              <img src={javascript} className="skill-imgs"></img>
-              <img src={java} className="skill-imgs"></img>
-              <img src={react} className="skill-imgs"></img>
-              <img src={bootstrap} className="skill-imgs"></img>
-              <img src={node} className="skill-imgs"></img>
-              <img src={express} className="skill-imgs"></img>
-              <img src={mongo} className="skill-imgs"></img>
-           
-          
-        </div>
-      
+
+        <img src={html} className="skill-imgs"></img>
+        <img src={css} className="skill-imgs"></img>
+        <img src={javascript} className="skill-imgs"></img>
+        <img src={java} className="skill-imgs"></img>
+        <img src={react} className="skill-imgs"></img>
+        <img src={bootstrap} className="skill-imgs"></img>
+        <img src={node} className="skill-imgs"></img>
+        <img src={express} className="skill-imgs"></img>
+        <img src={mongo} className="skill-imgs"></img>
+      </div>
     );
   }
 }
