@@ -1,0 +1,154 @@
+.resume-main {
+  display: grid;
+}
+.text {
+  float: right;
+}
+.text-h {
+  text-align: right;
+}
+.resume-wrapper {
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow: 10px 5px 5px ;
+  padding: 20px;
+  margin: 30px;
+}
+.resume-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.resume-title {
+  text-align: center;
+  
+}
+.resume-subhead {
+  text-align: center;
+}
+
+
+
+/* Media for Mobile devices Tablets and Phones */
+@media all and (min-width: 960px) and (max-width: 1024px) {
+  .resume-image{
+    width: 200px;
+  }
+  .resume-wrapper {
+    display: inline-block;
+  }
+  .resume-content {
+    background: #3366cc;
+    width: 200px;
+    height: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 801px) and (max-width: 959px) {
+  .resume-content{
+    display: flex;
+  }
+  .resume-image{
+    
+    width: 500px;
+  }
+  .resume-wrapper {
+    display: inline-block;
+  }
+  .resume-content {
+    background: #3366cc;
+    width: 200px;
+    height: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 800px) {
+  .resume-image{
+    width: 200px;
+  }
+  .resume-wrapper {
+    display: inline-block;
+  }
+  .resume-content {
+    background: #3366cc;
+    width: 200px;
+    height: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 569px) and (max-width: 768px) {
+  .resume-image{
+    width: 200px;
+  }
+  .resume-wrapper {
+    display: inline-block;
+  }
+  .resume-content {
+    background: #3366cc;
+    width: 200px;
+    height: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 481px) and (max-width: 568px) {
+  .resume-image{
+    width: 200px;
+  }
+  .resume-wrapper {
+    display: inline-block;
+  }
+  .resume-content {
+    background: #3366cc;
+    width: 200px;
+    height: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 321px) and (max-width: 480px) {
+  /* put your css styles in here */
+}
+
+@media all and (min-width: 0px) and (max-width: 320px) {
+  /* put your css styles in here */
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .resume-image{
+    width: 200px;
+  }
+  .resume-wrapper {
+    display: inline-block;
+  }
+  .resume-content {
+    background: #3366cc;
+    width: 200px;
+    height: 30%;
+    margin: 0 auto;
+  }
+  @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+  .resume-image{
+    width: 200px;
+  }
+  .resume-wrapper {
+    display: inline-block;
+  }
+  .resume-content {
+    background: #3366cc;
+    width: 100px;
+    height: 30%;
+    margin: 0 auto;
+  }
+}
+  
+}
