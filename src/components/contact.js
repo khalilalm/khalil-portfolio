@@ -9,7 +9,7 @@ const FormRequest = () => {
   const submitRequest = async (e) => {
     e.preventDefault();
    console.log({ email, message, name, phoneNum });
-    fetch("http://localhost:3001/access", {
+    fetch("/access", {
       
       method: "POST",
       headers: {"Content-Type":"application/json",

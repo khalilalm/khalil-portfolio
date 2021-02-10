@@ -15,7 +15,7 @@ class projects extends Component {
         <p className="subtitle">My Favorite Projects</p>
         <div className="portfolio">
           {" "}
-          <a href="https://apexer.herokuapp.com/">
+          <a href="https://dazzling-jackson-8a355c.netlify.app/">
             <div
               className="textOverImage"
               data-text="Apexer                                                                                                                                                                                                                               Apex Stat Tracking App made using
@@ -27,7 +27,7 @@ class projects extends Component {
               </a>
             </div>
           </a>
-          <a href="https://kobetribute.herokuapp.com/">
+          <a href="https://competent-shirley-ce4746.netlify.app">
             <div
               className="textOverImage"
               data-text="Kobe Bryant Tribute Page                                                                                                                                                                                                                                Tribute page showcasing HTML and CSS styling techniques under the
