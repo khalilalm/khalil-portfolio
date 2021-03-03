@@ -38,7 +38,7 @@ class projects extends Component {
               </a>
             </div>
           </a>
-          <a href="https://60271b2144f4d100072fbed4--jolly-bohr-4cbb79.netlify.app/">
+          <a href="https://jolly-bohr-4cbb79.netlify.app">
             <div
               className="textOverImage"
               data-text="Al-Estate                                                                                                                                                                                                                              Full Stack Home Tracking app that
