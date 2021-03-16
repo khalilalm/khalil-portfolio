@@ -4,7 +4,7 @@
   color: black;
   text-align: center;
   height: 100%;
-  padding: 25px;
+  padding: 30px;
   
 }
 a{
@@ -27,7 +27,7 @@ width: fit-content;
 
 .portfolio-img {
   width: 500px;
-  height: 300px;
+  height: 270px;
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
 }
 .portfolio-item:focus {
@@ -38,7 +38,7 @@ width: fit-content;
 .textOverImage{
   position:relative;
   width:500px;
-  height:300px;
+  height:270px;
   float:left;
   margin:0px;
   background-size:100%;
