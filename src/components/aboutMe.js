@@ -22,14 +22,14 @@ class aboutMe extends Component {
               <p>
                 <b>
                   I've been programming for 3 years and have been working with
-                  Front-End Web development for about 1 year.
+                  Front-End Web development for about 2 year.
                 </b>
               </p>
               <p>
                 <b>
                   {" "}
                   Programming is a huge passion for me and I use this website to
-                  showcase my favorite projects and progression. Hopefully I can help you with your professional or personal endeavors.
+                  showcase my favorite projects and progression. I hope to help you with your professional or personal endeavors.
                 </b>
               </p>
               <p>
