@@ -9,8 +9,8 @@ class resume extends Component {
         <div className="resume-wrapper">
           <h1 className="resume-title">Resume</h1>
           <div className="resume-content">
-           
-              <img className="resume-image" src={resumeI}></img> <a href="https://drive.google.com/file/d/1PGkVqGbHaj00xO5Vn7qUf-uqKBb8pTIG/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1xhSHPgtWQgb02devz8jUbDd13M1vUm9V/view?usp=sharing">
+              <img className="resume-image" src={resumeI}></img>
             </a>
           </div>
 

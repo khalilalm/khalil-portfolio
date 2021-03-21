@@ -78,7 +78,7 @@ const navSlide = () => {
             <li className="nav-item">
               <Link
                 className="Nav-a"
-                to="contact-main"
+                to="contact-container"
                 smooth={true}
                 duration={1000}
               >
