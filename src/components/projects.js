@@ -65,7 +65,7 @@ class projects extends Component {
             <div
               className="textOverImage"
               data-text="Twitch Clone                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-                      A clone of the popular streaming website twitch. Uses up to react hooks, css grid, flexbox and other core css styling elements.                                                                                                                                                                                                                             Technologies: -HTML -CSS -React
+                      A clone of the popular streaming website Twitch.tv. Uses up to react hooks, css grid, flexbox and other core css styling elements.                                                                                                                                                                                                                             Technologies: -HTML -CSS -React
           "
             >
               <a className="portfolio-item">
@@ -73,6 +73,24 @@ class projects extends Component {
               </a>
             </div>{" "}
           </a>
+
+{/* Gym shark */}
+          <a href="https://gymshark-clone-5tm8c69a4-khalilalm.vercel.app/">
+            <div
+              className="textOverImage"
+              data-text="GymShark Clone                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                      A clone of the popular gym apparel website Gymshark.com. Used react slider for the banner display, css grid, flexbox and other css elements. Helped me get a better understanding of css flex, ui ux design and postioning in general.                                                                                                                                                                                                                            Technologies: -HTML -CSS -React
+          "
+            >
+              <a className="portfolio-item">
+                <img className="portfolio-img" src={gymshark}></img>
+              </a>
+            </div>{" "}
+          </a>
+
+
+
+
         </div>
       </section>
     );
