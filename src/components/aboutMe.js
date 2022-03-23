@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./aboutMe.css";
-import head from "../images/head.png";
+import head from "../images/khalil-portrait.jpg";
 import linkedIn from "../images/link.svg";
 import instagram from "../images/insta.svg";
 import gh from "../images/git.svg";
