@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./resume.css";
-import resumeI from "../images/resume.png";
+import resumeI from "../images/kha-resume-img.png";
 class resume extends Component {
   state = {};
   render() {
@@ -9,7 +9,7 @@ class resume extends Component {
         <div className="resume-wrapper">
           <h1 className="resume-title">Resume</h1>
           <div className="resume-content">
-            <a href="https://drive.google.com/file/d/1xhSHPgtWQgb02devz8jUbDd13M1vUm9V/view?usp=sharing">
+            <a href="https://docs.google.com/document/d/1OVLBbHAgDvWd7dqo_dd4NVbfpwcF6eg3/edit?usp=sharing&ouid=102019679261095126740&rtpof=true&sd=true">
               <img className="resume-image" src={resumeI}></img>
             </a>
           </div>

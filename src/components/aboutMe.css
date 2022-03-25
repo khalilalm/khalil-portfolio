@@ -24,12 +24,7 @@
   padding: 10px;
   background-color: #3366cc;
 }
-.bg-wrapper {
-  background-color: rgba(95, 95, 95, 0.884);
-  border: 1px solid black;
-  width: 400px;
-  height: 200px;
-}
+
 .aboutMe-text {
   animation: fadeIn ease 3s;
   animation-iteration-count: 1;
@@ -89,6 +84,18 @@ Iphone X
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {  
+  .bg-wrapper{
+    width: 100px;
+  }
+  .bg-img {
+    background-color: var(--clr-light);
+    background-image: url(../images/ms.jpg);
+    z-index: 1;
+    background-size:cover;
+    background-blend-mode: multiply;
+    width: 375px;
+    
+  }
   .aboutMe-text{
   text-align: center;
 }
@@ -100,6 +107,35 @@ and (-webkit-device-pixel-ratio : 3) {
   left:50%;
   top:100%;
 }}
+/*Iphone XR*/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 896px){
+  .bg-img {
+    background-color: var(--clr-light);
+    background-image: url(../images/ms.jpg);
+    z-index: 1;
+    background-size:cover;
+    background-blend-mode: multiply;
+    width: 514px;
+    
+  }
+
+}
+/*Iphone XR*/
+@media only screen 
+and (min-device-width : 390px) 
+and (max-device-width : 844px){
+  .bg-img {
+    background-color: var(--clr-light);
+    background-image: url(../images/ms.jpg);
+    z-index: 1;
+    background-size:cover;
+    background-blend-mode: multiply;
+    width: 514px;
+    
+  }
+}
 
 /*Iphone 6,7,8*/
 @media only screen 

@@ -34,7 +34,7 @@ const FormRequest = () => {
                 className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="Email"
               >
-                Your Email
+                Email
               </label>
               <input
                 className="Email"
@@ -53,7 +53,7 @@ const FormRequest = () => {
                 className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="Email"
               >
-                Your Phone Number
+                Phone Number
               </label>
               <input
                 className="Phone"
@@ -86,13 +86,13 @@ const FormRequest = () => {
             {/* Message */}
             <div className="mb-4">
               <label className="message-tb" htmlFor="message">
-                Message For Us
+                Message 
               </label>
               <textarea
                 className="message-textBox"
                 name="message"
                 type="text"
-                placeholder="Tell us your purpose"
+                placeholder="Tell me your purpose"
                 onChange={(e) => setMessage(e.target.value)}
                 value={message}
                 required
