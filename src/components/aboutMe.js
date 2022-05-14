@@ -28,8 +28,8 @@ class aboutMe extends Component {
               <p>
                 <b>
                   {" "}
-                  Programming is a huge passion for me and I use this website to
-                  showcase my favorite projects and progression. I hope to help you with your professional or personal endeavors.
+                  Programming is a huge passion and I use this website to
+                  showcase my favorite projects. I hope to help you with your professional/personal endeavors.
                 </b>
               </p>
               <p>
