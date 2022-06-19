@@ -12,7 +12,7 @@ class aboutMe extends Component {
         <div className="aboutMe-main">
           <div className="bg-wrpper">
             <h1 className="aboutMe-text"> &lt; Khalil Al-Mujeeb /&gt; </h1>
-            <h2 className="aboutMe-text">Front-End Web Developer</h2>
+            <h2 className="aboutMe-text">Software Engineer/Web Developer</h2>
           </div>
           <div className="img-container"></div>
           <img id="headShot" src={head}></img>

@@ -26,7 +26,7 @@ const navSlide = () => {
   }
     return (
       <div className="nav-content">
-        <nav>
+        <nav className="navbar">
           <div className="logo">
             {" "}
             <h4>&lt; Khalil Al-Mujeeb's Web Portfolio /&gt;</h4>

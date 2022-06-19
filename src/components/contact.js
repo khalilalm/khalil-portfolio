@@ -24,12 +24,15 @@ const FormRequest = () => {
   return (
     <div>
       <div className="contact-container">
-        <div className="contact-pad">
+        <h1 className="contact-text">Contact Me</h1>
+        <p className="contact-text">Email: Almujeebkhalil@gmail.com</p>
+        
+        {/* <div className="contact-pad">
           <form action="/access" className="Contact" onSubmit={submitRequest}>
-            <h2 className="contact-title">Contact Me</h2>
+            <h2 className="contact-title">Contact Me</h2> */}
 
             {/* Email */}
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <label
                 className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="Email"
@@ -45,10 +48,10 @@ const FormRequest = () => {
                 value={email}
                 required
               />
-            </div>
+            </div> */}
 
             {/* Phone Number */}
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <label
                 className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="Email"
@@ -64,9 +67,9 @@ const FormRequest = () => {
                 value={phoneNum}
                 required
               />
-            </div>
+            </div> */}
             {/* Name */}
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <label
                 className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="Name"
@@ -82,9 +85,9 @@ const FormRequest = () => {
                 value={name}
                 required
               />
-            </div>
+            </div> */}
             {/* Message */}
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <label className="message-tb" htmlFor="message">
                 Message 
               </label>
@@ -104,7 +107,7 @@ const FormRequest = () => {
               </button>
             </div>
           </form>
-        </div>
+        </div> */}
       </div>
     </div>
   );
