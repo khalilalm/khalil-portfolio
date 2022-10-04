@@ -13,11 +13,18 @@ class projects extends Component {
     return (
       <section class="my-projects" id="projects">
         <h2 className="section__title">Projects</h2>
-        <p className="subtitle">My Favorite Projects</p>
+        <p className="subtitle">Featured Projects</p>
         <div className="portfolio">
           {" "}
 
-
+          {/* <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div> */}
+{/* </div> */}
           <a href="https://dazzling-jackson-8a355c.netlify.app/" target="_blank">
             <div
               className="textOverImage"

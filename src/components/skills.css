@@ -38,15 +38,15 @@
 }
 
 @media all and (min-width: 801px) and (max-width: 959px) {
-  .skills-title{
+  .skills-title {
     display: flex;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   .skills-wrapper {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .skills-container {
     padding: 10%;
@@ -54,15 +54,15 @@
 }
 
 @media all and (min-width: 769px) and (max-width: 800px) {
-  .skills-title{
+  .skills-title {
     display: flex;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   .skills-wrapper {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .skills-container {
     padding: 10%;
@@ -70,15 +70,15 @@
 }
 
 @media all and (min-width: 569px) and (max-width: 768px) {
-  .skills-title{
+  .skills-title {
     display: flex;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   .skills-wrapper {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .skills-container {
     padding: 10%;
@@ -86,32 +86,31 @@
 }
 
 @media all and (min-width: 481px) and (max-width: 568px) {
-  .skills-title{
+  .skills-title {
     display: flex;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   .skills-wrapper {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .skills-container {
     padding: 10%;
   }
- 
 }
 
 @media all and (min-width: 321px) and (max-width: 480px) {
-  .skills-title{
+  .skills-title {
     display: flex;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   .skills-wrapper {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .skills-container {
     padding: 10%;
@@ -119,30 +118,30 @@
 }
 
 @media all and (min-width: 0px) and (max-width: 320px) {
-  .skills-title{
+  .skills-title {
     display: flex;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   .skills-wrapper {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .skills-container {
     padding: 10%;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  .skills-title{
+  .skills-title {
     display: flex;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   .skills-wrapper {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .skills-container {
     padding: 10%;

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./navBar.css";
+
 import { Link } from "react-scroll";
 class navBar extends Component {
   
@@ -26,6 +27,23 @@ const navSlide = () => {
   }
     return (
       <div className="nav-content">
+        {/* <div class="navbar-nav">
+            <Link smooth={true} duration={1000} to="">
+              <a class="nav-item nav-link active" href="#">
+                About Me<span class="sr-only">(current)</span>
+              </a>
+            </Link>
+            <Link smooth={true} duration={1000} to="skills-wrapper">
+              <a class="nav-item nav-link active" href="#">
+                Skills
+              </a>
+            </Link>
+            <Link smooth={true} duration={1000} to="my-projects">
+              <a class="nav-item nav-link active" >
+                Projects
+              </a>
+            </Link>
+          </div> */}
         <nav className="navbar">
           <div className="logo">
             {" "}
