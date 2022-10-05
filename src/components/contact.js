@@ -26,6 +26,8 @@ const FormRequest = () => {
       <div className="contact-container">
         <h1 className="contact-text">Contact Me</h1>
         <p className="contact-text">Email: Almujeebkhalil@gmail.com</p>
+        <p className="contact-text">Phone: (570) 540-2786</p>
+        
         
         {/* <div className="contact-pad">
           <form action="/access" className="Contact" onSubmit={submitRequest}>

@@ -1,6 +1,8 @@
 .skills-wrapper {
-  position: relative;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
   margin: 20px;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -10,18 +12,13 @@
   padding: 15%;
 }
 .skills-content {
-  position: absolute;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
   padding: 20px;
   margin: 5px;
-  vertical-align: top;
-  top: 0;
-  left: 0;
-  width: 95%;
-
-  border: 1px solid black;
-  box-shadow: 10px 5px 5px black;
-  padding: 0px;
+ 
 }
 
 .skill-imgs {
