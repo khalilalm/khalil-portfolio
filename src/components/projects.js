@@ -24,7 +24,7 @@ class projects extends Component {
               <h5 class="card-title">Kobe Bryant Tribute</h5>
               <h6 class="card-subtitle mb-2 text-muted">
                 Technologies Used:
-                <p>React, Bootstrap, HTML, CSS, Javascript</p>
+                <p>React, Bootstrap, HTML, CSS</p>
               </h6>
               <p class="card-text">
                 Page showcasing HTML and CSS styling techniques under the react
@@ -74,7 +74,7 @@ class projects extends Component {
               <h5 class="card-title">Twitch Clone</h5>
               <h6 class="card-subtitle mb-2 text-muted">
                 Technologies Used:
-                <p>React, HTML, CSS, Javascript</p>
+                <p>React, HTML, CSS</p>
               </h6>
               <p class="card-text">
               A clone of the popular streaming website Twitch.tv. Uses up to react hooks, css grid, flexbox and other core css styling elements.{" "}
