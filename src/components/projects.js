@@ -119,7 +119,7 @@ class projects extends Component {
             </div>
           </div>
           
-          <div class="card" style={{ width: "10rem;" }}>
+          {/* <div class="card" style={{ width: "10rem;" }}>
             <img className="portfolio-img" class="card-img-top" src={alEstate} alt="Card image cap" />
             <div class="card-body">
               <h5 class="card-title">Al-Estate</h5>
@@ -168,7 +168,7 @@ class projects extends Component {
                 Live Site
               </a><div className="projects-end"></div>
             </div>
-          </div>
+          </div> */}
 
 
       
