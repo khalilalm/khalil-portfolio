@@ -1,8 +1,14 @@
+.nav-content{
+ position: fixed; 
+  z-index: 1;
+  width: 100%;
+  
+}
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
+  min-height: 5vh;
   background-color: #3366cc;
 }
 nav .logo {
@@ -17,18 +23,19 @@ nav ul {
   list-style: none;
   float: right;
   margin: 0;
-  padding: 0;
+  padding: 20p;
   display: flex;
   background-color: var(--bg-primary);
   transition: width 600ms ease;
 }
 nav ul li {
+  padding: 20px;
   list-style: none;
 }
 nav ul li a {
   line-height: 80px;
   color: #151515;
-  padding: 12px 30px;
+  padding: 6px 10px;
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.3s;

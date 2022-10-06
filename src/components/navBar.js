@@ -63,7 +63,7 @@ const navSlide = () => {
             <li className="nav-item">
               <Link
                 className="Nav-a"
-                to="skills-wrapper"
+                to="line"
                 smooth={true}
                 duration={1000}
               >
@@ -85,7 +85,7 @@ const navSlide = () => {
             <li className="nav-item">
               <Link
                 className="Nav-a"
-                to="resume-main"
+                to="projects-end"
                 smooth={true}
                 duration={1000}
               >

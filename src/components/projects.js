@@ -166,7 +166,7 @@ class projects extends Component {
                 class="card-link"
                 target="_blank">
                 Live Site
-              </a>
+              </a><div className="projects-end"></div>
             </div>
           </div>
 
