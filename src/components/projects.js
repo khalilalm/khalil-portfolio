@@ -172,7 +172,7 @@ class projects extends Component {
 
 
       
-          {/* Gym shark */}
+        
         
           
           
