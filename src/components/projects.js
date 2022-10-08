@@ -48,7 +48,7 @@ class projects extends Component {
             <div class="card-body">
               <h5 class="card-title">Majaek's Heart</h5>
               <h6 class="card-subtitle mb-2 text-muted">
-                Technologies Used:
+                Technologies  Used:
                 <p>React, HTML, CSS, Javascript</p>
               </h6>
               <p class="card-text">
