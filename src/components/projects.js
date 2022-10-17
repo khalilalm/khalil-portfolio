@@ -110,7 +110,7 @@ class projects extends Component {
                 View Code
               </a>
               <a
-               href="https://gymshark-clone-5tm8c69a4-khalilalm.vercel.app/"
+               href="https://gymshark-clone.vercel.app/"
                target="_blank"
                 class="card-link"
               >
