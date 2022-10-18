@@ -14,7 +14,7 @@ class resume extends Component {
             </a>
           </div>
 
-          <p className="resume-subhead">Click image to get my resume</p>
+          <p className="resume-subhead">Click image above to get my resume</p>
         </div>
       </div>
     );
